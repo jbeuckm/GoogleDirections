@@ -1,0 +1,10 @@
+<Alloy>
+	
+	<TableViewRow id="row">
+		<ImageView class="icon" image="{icon}"/>
+		<Label class="distanceLabel" text="{distance}"/>
+		<Label text="{maneuver}"/>
+		<WebView html="{html_instructions}"/>
+	</TableViewRow>
+		
+</Alloy>

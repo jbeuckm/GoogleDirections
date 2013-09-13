@@ -1,0 +1,19 @@
+TableViewRow: {
+	layout: "horizontal"
+}
+
+".icon": {
+	height: 40,
+	width: 60
+}
+".distanceLabel": {
+	font: {
+		fontSize: 18,
+		fontWeight: "bold"
+	}
+}
+WebView: {
+	left: 10,
+	width: 220,
+	height: 50
+}

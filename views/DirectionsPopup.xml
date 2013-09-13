@@ -1,0 +1,16 @@
+<Alloy>
+	
+	<Collection src="GoogleDirection"/>
+
+	<Window id="win">
+		
+		<Button onClick="closePopup">Close</Button>
+		
+		<TableView dataCollection="GoogleDirection" dataTransform="transformDirection">
+			<Widget src="directionsLinks" name="directionRow"/>
+		</TableView>
+
+	</Window>
+
+</Alloy>
+

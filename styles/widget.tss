@@ -1,0 +1,28 @@
+
+'#view': {
+	layout: 'horizontal',
+	textAlign: 'center',
+	width: 'auto'
+}
+".directionsButton": {
+	right: 1,
+	left: 1
+}
+
+
+"#drivingButton": {
+	backgroundImage: "driving.png",
+	backgroundSelectedImage: "driving-tapped.png"
+}
+"#walkingButton": {
+	backgroundImage: "walking.png",
+	backgroundSelectedImage: "walking-tapped.png"
+}
+"#transitButton": {
+	backgroundImage: "busing.png",
+	backgroundSelectedImage: "busing-tapped.png"
+}
+"#bicyclingButton": {
+	backgroundImage: "bicycling.png",
+	backgroundSelectedImage: "bicycling-tapped.png"
+}

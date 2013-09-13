@@ -1,0 +1,12 @@
+<Alloy>
+
+	<Collection src="GoogleDirection"/>
+
+    <View id="view">
+    	<Button class="directionsButton" id="drivingButton" onClick="clickCarDirections"/>
+    	<Button class="directionsButton" id="transitButton" onClick="clickBusDirections"/>
+    	<Button class="directionsButton" id="bicyclingButton" onClick="clickBikeDirections"/>
+    	<Button class="directionsButton" id="walkingButton" onClick="clickWalkDirections"/>
+    </View>
+
+</Alloy>

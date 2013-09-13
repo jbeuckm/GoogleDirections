@@ -1,0 +1,13 @@
+{
+	"id": "directionsLinks",
+	"name": "Directions Links",
+	"description" : "Links to load google directions by the four available methods",
+	"author": "Joe Beuckman",
+	"version": "1.0",
+	"copyright":"no",
+	"license":"Public Domain",
+	"min-alloy-version": "1.0",
+	"min-titanium-version":"2.1",
+	"tags":"",
+	"platforms":"android,ios,mobileweb"
+}
