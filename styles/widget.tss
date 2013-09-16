@@ -6,23 +6,27 @@
 }
 ".directionsButton": {
 	right: 1,
-	left: 1
+	left: 1,
+//	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
+	width: 28,
+	height: 28,
+	backgroundColor: null
 }
 
 
 "#drivingButton": {
-	backgroundImage: "driving.png",
-	backgroundSelectedImage: "driving-tapped.png"
+	backgroundImage: "/directionsLinks/driving.png",
+	backgroundSelectedImage: "/directionsLinks/driving-tapped.png"
 }
 "#walkingButton": {
-	backgroundImage: "walking.png",
-	backgroundSelectedImage: "walking-tapped.png"
+	backgroundImage: "/directionsLinks/walking.png",
+	backgroundSelectedImage: "/directionsLinks/walking-tapped.png"
 }
 "#transitButton": {
-	backgroundImage: "busing.png",
-	backgroundSelectedImage: "busing-tapped.png"
+	backgroundImage: "/directionsLinks/busing.png",
+	backgroundSelectedImage: "/directionsLinks/busing-tapped.png"
 }
 "#bicyclingButton": {
-	backgroundImage: "bicycling.png",
-	backgroundSelectedImage: "bicycling-tapped.png"
+	backgroundImage: "/directionsLinks/bicycling.png",
+	backgroundSelectedImage: "/directionsLinks/bicycling-tapped.png"
 }

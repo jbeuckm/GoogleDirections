@@ -1,10 +1,10 @@
 
 
 var modeIcons = {
-	WALKING: "/interface/directions/walk.png",
-	TRANSIT: "/interface/directions/bus.png",
-	BICYCLING: "/interface/directions/bike.png",
-	DRIVING: "/interface/directions/car.png",
+	WALKING: "/directionsLinks/walk.png",
+	TRANSIT: "/directionsLinks/bus.png",
+	BICYCLING: "/directionsLinks/bike.png",
+	DRIVING: "/directionsLinks/car.png",
 };
 
 Alloy.Globals.tracker.trackScreen("directions");
