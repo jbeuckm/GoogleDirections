@@ -15,7 +15,7 @@ TableViewRow: {
 	}
 }
 WebView: {
-	left: 10,
-	width: 220,
-	height: 50
+	right: 5,
+	width: 210,
+	height: Ti.UI.SIZE
 }
