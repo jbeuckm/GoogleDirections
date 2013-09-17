@@ -3,8 +3,10 @@ TableViewRow: {
 }
 
 ".icon": {
-	height: 40,
-	width: 60
+	width: 28,
+	height: 28,
+	backgroundColor: null,
+	left: 3, right: 3
 }
 ".distanceLabel": {
 	font: {

@@ -1,10 +1,10 @@
 
 
 var modeIcons = {
-	WALKING: "/directionsLinks/walk.png",
-	TRANSIT: "/directionsLinks/bus.png",
-	BICYCLING: "/directionsLinks/bike.png",
-	DRIVING: "/directionsLinks/car.png",
+	WALKING: "walking.png",
+	TRANSIT: "transit.png",
+	BICYCLING: "biking.png",
+	DRIVING: "driving.png",
 };
 
 Alloy.Globals.tracker.trackScreen("directions");
@@ -20,7 +20,7 @@ function transformDirection(d) {
 	return {
 		distance: obj.distance,
 		html_instructions: html.replace("@@@DIRECTIONS@@@", obj.html_instructions),
-		icon: modeIcons[obj.travel_mode]
+		icon: WPATH(modeIcons[obj.travel_mode])
 	};
 }
 

@@ -7,7 +7,6 @@
 ".directionsButton": {
 	right: 1,
 	left: 1,
-//	style: Ti.UI.iPhone.SystemButtonStyle.PLAIN,
 	width: 28,
 	height: 28,
 	backgroundColor: null
