@@ -2,7 +2,7 @@
 
 var modeIcons = {
 	WALKING: "walking.png",
-	TRANSIT: "transit.png",
+	TRANSIT: "busing.png",
 	BICYCLING: "bicycling.png",
 	DRIVING: "driving.png",
 };
