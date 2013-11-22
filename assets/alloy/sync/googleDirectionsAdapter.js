@@ -13,6 +13,10 @@ module.exports.sync = function(method, model, options) {
         		destination: options.toLat+','+options.toLon,
         		mode: options.mode || "walking"
         	};
+        	
+        	if (params.mode == "transit") {
+        		params.departure_time = Math.floor(new Date().getTime() / 1000);
+        	}
 
 			var xhr = Ti.Network.createHTTPClient({
 				onerror : function(e) {
@@ -50,7 +54,7 @@ module.exports.sync = function(method, model, options) {
 		
 			var request = googleDirectionsUrl;
 			request += '?' + require('utilities').serialize(params);
-		
+Ti.API.debug(request);		
 			xhr.open('GET', request);
 			xhr.send();
 			
