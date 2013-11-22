@@ -1,0 +1,8 @@
+"TableView": {
+	
+}
+
+"#closeButton": {
+	top: 20,
+	zIndex: 100
+}
