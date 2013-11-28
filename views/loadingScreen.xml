@@ -1,0 +1,8 @@
+<Alloy>
+
+	<Window id="win">
+		<ActivityIndicator id="activityIndicator">
+		</ActivityIndicator>
+	</Window>
+
+</Alloy>

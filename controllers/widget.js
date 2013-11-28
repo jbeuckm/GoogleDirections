@@ -1,6 +1,6 @@
 
-var loadingScreen = Alloy.createWidget("LoadingScreen", null, { message: "Getting directions..." }).getView();
-var directionsView = Alloy.createWidget('directionsLinks', "DirectionsPopup").getView();
+var loadingScreen = Alloy.createWidget("directionsLinks", "loadingScreen", { message: "Getting directions..." }).getView();
+var directionsView = Alloy.createWidget("directionsLinks", "DirectionsPopup").getView();
 
 
 var collection = Widget.Collections.GoogleDirection;

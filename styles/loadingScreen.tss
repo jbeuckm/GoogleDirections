@@ -1,0 +1,9 @@
+Window: {
+	backgroundColor: "rgba(0,0,0,.6)",
+	layout: null
+}
+
+ActivityIndicator: {
+	color: "white",
+	style: Ti.UI.iPhone.ActivityIndicatorStyle.BIG
+}

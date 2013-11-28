@@ -28,5 +28,10 @@ function closePopup() {
 	$.win.close();
 }
 
-
 Widget.Collections.GoogleDirection.trigger("reset");
+
+
+function cleanup() {
+	$.destroy();
+}
+
