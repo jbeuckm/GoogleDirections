@@ -1,5 +1,5 @@
 
-var loadingScreen = Alloy.createWidget("directionsLinks", "loadingScreen", { message: "Getting directions..." }).getView();
+var loadingScreen;
 var directionsView = Alloy.createWidget("directionsLinks", "DirectionsPopup").getView();
 
 
@@ -13,6 +13,10 @@ exports.setEndpoints = function(pts) {
 
 
 function getDirections() {
+	
+	if (!loadingScreen) {
+		loadingScreen = Alloy.createWidget("directionsLinks", "loadingScreen", { message: "Getting directions..." }).getView();
+	}
 	loadingScreen.open();
 	collection.on('error', directionsLoadError);
 	collection.on('reset', openDirectionsPopup);
