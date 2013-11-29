@@ -1,10 +1,15 @@
 <Alloy>
 	
 	<TableViewRow id="row">
-		<ImageView class="icon" image="{icon}"/>
-		<Label class="distanceLabel" text="{distance}"/>
-		<Label text="{maneuver}"/>
+		
+		<View id="left_column">
+			<ImageView class="icon" image="{icon}"/>
+			<Label class="distanceLabel" text="{distance}"/>
+			<Label class="distanceLabel" text="{duration}"/>
+		</View>
+		
 		<WebView html="{html_instructions}"/>
+
 	</TableViewRow>
 		
 </Alloy>

@@ -3,6 +3,7 @@
 }
 
 "#closeButton": {
-	top: 20,
+	top: 25,
+	bottom: 10,
 	zIndex: 100
 }
